@@ -1,4 +1,4 @@
-import 'package:eneo_ai_project/interfaces/welcome.dart';
+import 'interfaces/onboding/onboding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(fontFamily: 'Poppins'),
-        home: const WelcomePage());
+        home: const OnboardingScreen());
   }
 }

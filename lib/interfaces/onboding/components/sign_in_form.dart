@@ -1,8 +1,9 @@
+import 'package:eneo_ai_project/interfaces/entryPoint/entry_point.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:rive/rive.dart';
-import 'package:rive_animation/screens/entryPoint/entry_point.dart';
+import 'package:rive_animation/interfaces/entryPoint/entry_point.dart';
 
 class SignInForm extends StatefulWidget {
   const SignInForm({
