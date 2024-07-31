@@ -4,11 +4,10 @@ import 'package:rive/rive.dart';
 
 class AnimatedBtn extends StatelessWidget {
   const AnimatedBtn({
-    Key? key,
+    super.key,
     required RiveAnimationController btnAnimationController,
     required this.press,
-  })  : _btnAnimationController = btnAnimationController,
-        super(key: key);
+  }) : _btnAnimationController = btnAnimationController;
 
   final RiveAnimationController _btnAnimationController;
   final VoidCallback press;
@@ -32,12 +31,12 @@ class AnimatedBtn extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Icon(CupertinoIcons.arrow_right),
                   const SizedBox(width: 8),
                   Text(
-                    "Start the course",
+                    "SUIVANT",
                     style: Theme.of(context).textTheme.labelLarge,
-                  )
+                  ),
+                  const Icon(CupertinoIcons.arrow_right)
                 ],
               ),
             )
